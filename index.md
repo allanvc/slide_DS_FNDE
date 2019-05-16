@@ -147,7 +147,7 @@ strong {
 
 > - reconhecimento facial (desde aplicação policial até diversão no celular: snapchat);
 
-> - classificação de doenças;
+> - detecção de doenças;
 
 > - detecção de fraudes (cartão de crédito);
 
