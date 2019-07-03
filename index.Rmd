@@ -70,6 +70,7 @@ strong {
 --- .class #id
 ## Objetivos específicos
 
+<br>
 > - Definir o que é Data Science
 
 <br>
@@ -193,7 +194,7 @@ Fonte: fusionanalytics.com
 --- &twocol
 ## Data Science no Mundo (2)
 
-Acidente com o AF447 em 2009
+Acidente com o AF447 (2009-2011)
 *** =left
 <img src="./assets/img/AF447_c.jpg" style="float: left; width: 60%; margin-right: 1%; margin-bottom: 0.5em;">
 <br>
@@ -203,8 +204,24 @@ Acidente com o AF447 em 2009
 <img src="./assets/img/AF447_b.PNG" style="float: left; width: 90%; margin-right: 1%; margin-bottom: 0.5em;">
 
 
---- .class #id
+
+--- &twocol
 ## Data Science no Mundo (3)
+
+O caso Challenger (1986)
+*** =left
+<img src="./assets/img/challenger1.jpg" style="float: left; width: 60%; margin-right: 1%; margin-bottom: 0.5em;">
+<br>
+<img src="./assets/img/challenger_linreg2.PNG" style="float: left; width: 100%; margin-right: 1%; margin-bottom: 0.5em;">
+
+*** =right
+<img src="./assets/img/challenger_linreg.PNG" style="float: left; width: 90%; margin-right: 1%; margin-bottom: 0.5em;">
+<br>
+<img src="./assets/img/log_reg.PNG" style="float: left; width: 90%; margin-right: 1%; margin-bottom: 0.5em;">
+
+--- .class #id
+## Data Science no Mundo (4)
+<br>
 <br>
 > - sistemas de recomendação;
 
@@ -220,13 +237,13 @@ Acidente com o AF447 em 2009
 --- .class #id
 ## Data Science no setor público
 
-`expoentes:`
+`pioneiros:`
 
 - CGU, Receita, BB
 
 `soluções:`
 
-- Raspagem diário oficial, detecção de fraudes, estimativa de espera em fila, detecção de lavagem de dinheiro em exportações
+- Detecção de fraudes, estimativa de espera em fila, raspagem diário oficial, detecção de lavagem de dinheiro em exportações
 
 
 <!-- # --- &twocol
@@ -275,7 +292,7 @@ Acidente com o AF447 em 2009
 <br>
 > - Robô para raspagem do Diário Oficial da União
 <br>
-> - Capacitação de servidores em Análise de Dados (2 módulos)
+> - Capacitação de servidores em Análise de Dados
 <br>
 - Outras ...
 
@@ -333,7 +350,7 @@ Acidente com o AF447 em 2009
 
 > - `permitirá`:
   
-  > + $\space$ eliminar passivo de mais de 290 mil PC (em 5 ou 10 anos)
+  > + $\space$ eliminar passivo de mais de 290 mil PC (em 5 anos*)
   
   > + $\space$ economia de mais de R$ 3 bilhões 
   
