@@ -8,7 +8,7 @@ library(devtools)
 
 install_github('ramnathv/slidify', force = TRUE)
 
-  install_github('ramnathv/slidifyLibraries')
+install_github('ramnathv/slidifyLibraries')
 
 install_github('slidifyLibraries', 'ramnathv')
 
@@ -94,9 +94,9 @@ library(knitr)
   
 # salvar antes o index.Rmd com as alterações feitas e depois..
 # preferível
-  slidify("index.Rmd")
-  # +
-  runDeck()
+slidify("index.Rmd")
+# +
+runDeck()
 
 
 #### PUBLICAÇÃO DOS SLIDES NA INTERNET (GITHUB) (FORA DO R):

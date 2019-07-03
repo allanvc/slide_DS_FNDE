@@ -1,7 +1,7 @@
 ---
 title       : Data Science
 subtitle    : A importância da Ciência de Dados para o FNDE 
-author      : Allan V. C. Quadros
+author      : Allan V. C. Quadros   -   Junho, 2019
 job         : 
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
@@ -36,9 +36,7 @@ strong {
 </style>
 
 <br>
-<br>
-<br>
-<br>
+<img src="./assets/img/dollar.jpg" style="float: center; width: 100%; margin:auto">
 <br>
 <br>
 <br>
@@ -67,41 +65,93 @@ strong {
 <br>
 <br>
 <br>
-> - Mostrar a importância da Ciência de Dados no mundo atual e no FNDE
+> - **Mostrar a importância da Ciência de Dados para o FNDE**
 
 --- .class #id
 ## Objetivos específicos
-<br>
-<br>
+
 > - Definir o que é Data Science
 
 <br>
-
-> - Trazer exemplos de sua aplicação no mundo contemporâneo
-
-<br>
-
-> - Trazer exemplos de sua aplicação no FNDE
+> - Apresentar exemplos de sua aplicação no mundo contemporâneo
 
 <br>
+> - Apresentar exemplos de sua aplicação no FNDE
 
+<br>
 > - Indicar como adquirir esse tipo de conhecimento
+
+
 
 --- .class #id
 ## O Que é Data Science?
+
+> .fragment É um campo **multidisciplinar** que utiliza métodos científicos, processos, algoritmos e sistemas para extrair conhecimento e insights tanto de dados estruturados quanto não-estruturados.
+
 <br>
-> .fragment É um campo **multidisciplinar** que utiliza métodos científicos, processos, algoritmos e sistemas para extrair conhecimento e insights tanto de dados estruturados quanto não estruturados.
+> - dados `estruturados`? ..tabelas, banco de dados..
+
+> - dados `não-estruturados`? ..páginas de internet, ex: redes sociais..
+
+> - **algoritmos**? ..conjunto de rotinas.. $\rightarrow$ `programação` (1º passo - Módulos I e II)
+
+<!-- > - **AI**? ..conjunto de técnicas/ algoritmos que podem ser aplicados para reconhecimento de imagens, de fala, chatbots, análise de sentimentos, classificação de objetos, etc.. (2º passo - Módulo III) -->
 
 
-<br>
-<br>
-> - dados não estruturados - ex: Twitter: o que as pessoas estão falando do FNDE no twitter?)
 
-> - dados estruturados: alguém consegue tirar alguma informação só de olhar para uma tabela de > 500 mil linhas?
+--- .class #id
+## Data Science ... resumindo
+
+<img src="./assets/img/datascientist_skillset.jpg" style="float: center; width: 100%; margin:auto">
+
+Fonte: fusionanalytics.com
+
+
+
+--- .class #id
+## Para quê Data Science?
+<br>
+<br>
+<br>
+> - **RESOLVER PROBLEMAS!!**
+
+
+--- .class #id
+## 1º passo: programação
+
+> - `Programação` = linguagem como qualquer outra
+
+> - No caso, a que os computadores e máquinas entendem
+<!-- # utilizar lógica e abstrações para que o computador entenda -->
+
+> - Voluntário ?
+<!-- # exemplo do robô humano.. para frente 10 passos -->
+
+
+
+--- .class #id
+## Por que programar?
+
+> - Por que programar e não utilizar `apenas` Excel e outros aplicativos *point & click*?
+<!-- # "apenas" pq nao precisaabondanar excel -->
+
+> +   1) Maior controle sobre o que o programa faz -- ex: bug 17/15 dígitos Excel
+
+> +   2) Maior segurança ao compartilhar e produzir informação -- ex: alterações erradas em tabelas/compartilhar código e não tabela
+
+> +   3) Uma vez aprendida a linguagem, há economia de tempo -- ex: fácil mudar elementos
+
+> +   4) Você pode fazer muito mais coisas -- ex: extração de dados da página do FNDE
+
+
+
+--- .class #id
+## Sessão "mão-na-roda"
+
 
 
 --- &twocol
-## Quem está fazendo Data Science?
+## Data Science é para todos!
 
 *** =left
 
@@ -125,32 +175,64 @@ strong {
 <br>
 > - Advogados
 <br>
-> - Pessoas comuns
+> - Pessoas comuns ...
 
 
 --- &twocol
-## Data Science no Mundo
+## Data Science no Mundo (1)
 
 *** =left
-
+<br>
 <img src="./assets/img/tesla.png" style="float: left; width: 120%; margin-right: 1%; margin-bottom: 0.5em;">
 
 *** =right
-
+<br>
 <img src="./assets/img/galaxies2.jpg" style="float: left; width: 90%; margin-right: 1%; margin-bottom: 0.5em;">
 
 
---- .class #id
-## Data Science no Mundo
+--- &twocol
+## Data Science no Mundo (2)
 
+Acidente com o AF447 em 2009
+*** =left
+<img src="./assets/img/AF447_c.jpg" style="float: left; width: 60%; margin-right: 1%; margin-bottom: 0.5em;">
+<br>
+<img src="./assets/img/AF447_a.PNG" style="float: left; width: 60%; margin-right: 1%; margin-bottom: 0.5em;">
+
+*** =right
+<img src="./assets/img/AF447_b.PNG" style="float: left; width: 90%; margin-right: 1%; margin-bottom: 0.5em;">
+
+
+--- .class #id
+## Data Science no Mundo (3)
+<br>
 > - sistemas de recomendação;
 
 > - reconhecimento facial (desde aplicação policial até diversão no celular: snapchat);
 
 > - detecção de doenças;
 
+> - detecção de exoplanetas;
+
 > - detecção de fraudes (cartão de crédito);
 
+
+--- .class #id
+## Data Science no setor público
+
+`expoentes:`
+
+- CGU, Receita, BB
+
+`soluções:`
+
+- Raspagem diário oficial, detecção de fraudes, estimativa de espera em fila, detecção de lavagem de dinheiro em exportações
+
+
+<!-- # --- &twocol
+<!-- # ## Data Science no Mundo -->
+
+<!-- # - video google duplex talvez -->
 
 --- .segue bg:grey
 # E no FNDE?
@@ -175,6 +257,95 @@ strong {
 
 --- .segue bg:grey
 # Você saberia dizer quanto e o quê o programa com o qual você trabalha retorna para a sociedade?
+
+
+--- .class #id
+## Algumas iniciativas isoladas
+
+<br>
+> - Malha-Fina FNDE
+<br>
+> - FisFa - Fiscaliza Fatura FIES
+<br>
+> - Conferência da carteira de títulos do FIES
+<br>
+> - Projeções financeiras de arrecadação
+<br>
+> - App para controle orçamentário de emendas parlamentares na DIFIN
+<br>
+> - Robô para raspagem do Diário Oficial da União
+<br>
+> - Capacitação de servidores em Análise de Dados (2 módulos)
+<br>
+- Outras ...
+
+> - Nem tudo foi nem será aproveitado, mas o importante é ter a `liberdade` de tentar/buscar `soluções para os problemas`.
+
+
+--- &twocol
+## FisFa - Fiscaliza Fatura FIES
+
+*** =left
+
+> - aplicativo para fiscalização das faturas dos AF do Fies
+
+> - mensalmente: taxa de administração da carteira de financiamento
+
+> - fatura + base de dados dos alunos (+ 1,7 milhão linhas cada)
+
+> - valor anual total das faturas ultrapassa R$800 milhões/ano
+
+> - antes: conferência pro-forma ("amostragem") sem base de referência MEC
+
+
+*** =right
+
+> - indagações constantes de TCU/CGU
+
+> - Projeto FisFa estruturou base de dados do MEC
+
+> - tempo de análise: de 2 semanas para < 1 minuto
+
+> - confiabilidade/robustez
+
+> - total de economia: > R$ 200 milhões
+
+> - Programado em `R` internalizando as regras contratuais
+
+> - 2 prêmios: CGU (2016) e ANGC (2018)
+
+
+
+--- .class #id
+## FisFa - Fiscaliza Fatura FIES
+<img src="./assets/img/fisfa.PNG" style="float: center; width: 100%; margin:auto">
+
+
+
+--- &twocol
+## Malha Fina FNDE
+
+*** =left
+
+> - entram 35 mil prestações de contas (PC)
+
+> - capacidade de análise: ~ 3,5 mil/ano*
+
+> - `permitirá`:
+  
+  > + $\space$ eliminar passivo de mais de 290 mil PC (em 5 ou 10 anos)
+  
+  > + $\space$ economia de mais de R$ 3 bilhões 
+  
+  > + $\space$ economia de mais de meio século de trabalho
+  
+> - **taxa de acerto: 90%**  
+
+
+
+*** =right
+
+- <img src="./assets/img/MF.png" style="float: center; width: 100%; margin:auto">
 
 
 --- .class #id
@@ -214,6 +385,29 @@ cat('<iframe src="./assets/widgets/plotly_scatter1.html" width="90%" height="50%
 
 
 --- .class #id
+## Desafios a serem atacados ainda
+
+- automação de tarefas -- ex: consultar Documenta, protocolo, fiscalização contratos
+
+<br>
+
+- visualização/gerenciamento de dados -- ex: DIFIN/FNDE
+
+<br>
+
+- estimativas -- ex: PNLD, PAR, DIFIN
+
+<br>
+
+- otimização -- ex: FUNDEB
+
+<br>
+
+- monitoramento e avaliação -- ex: AUDIT/DIGAP/DIRAE
+
+
+
+--- .class #id
 ## Onde obter conhecimento?
 
 <br>
@@ -221,7 +415,7 @@ cat('<iframe src="./assets/widgets/plotly_scatter1.html" width="90%" height="50%
 > - Trilha de capacitação em Data Science do FNDE;
 <br>
 <br>
-> - Internet: Coursera, Udemy, Udacity, Youtube, Khan Academy, Blogs
+> - Internet: MOOCs: Coursera, Udemy, Udacity; Youtube, Khan Academy, Blogs, etc
 
 
 
@@ -242,14 +436,14 @@ Apresentação disponíveis no<img src="./assets/img/gitlogo5.png" style="float:
 <br>
 
 <p>
-<a href="https://allanvc.github.io/slide_DS_FNDE/" style="color:black">allanvc.github.io/slide_DS_FNDE/</a>
+<a href="https://allanvc.github.io/slide_DS_FNDE/" style="color:black">allanvc.github.io/slide_talk_ADSP_FNDE/</a>
 </p>
 
 <br>
 
 *Contato:*
 
-*Allan Vieira de Castro Quadros*
+*Allan V. C. Quadros*
 
 <p>
 <a href="mailto:allan.quadros@fnde.gov.br" style="color:black">allan.quadros@fnde.gov.br</a>
