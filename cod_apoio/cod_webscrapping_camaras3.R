@@ -23,10 +23,12 @@ vec_name <- NULL
 # vetor de estados
 # estados <- c("AC", "AL", "GO", "SP", "SC", "SE", "TO")
 # estados <- c("AC", "AL", "GO")
-estados <- c("AC", "AL", "AP", "AM", "BA", "CE", "DF", "ES", "GO", "MA", "MT", "MS", "MG",
-             "PA", "PB", "PR", "PE", "PI", "RJ", "RN", "RS", "RO", "RR", "SC", "SP", "SE", "TO")
+# estados <- c("AC", "AL", "AP", "AM", "BA", "CE", "DF", "ES", "GO", "MA", "MT", "MS", "MG",
+#              "PA", "PB", "PR", "PE", "PI", "RJ", "RN", "RS", "RO", "RR", "SC", "SP", "SE", "TO")
+# 
+# estados <- c("RS", "RO", "RR", "SC", "SP", "SE", "TO")
 
-estados <- c("RS", "RO", "RR", "SC", "SP", "SE", "TO")
+estados <- c("AM")
 
 string_urls <- mapply(paste0, "http://www.interlegis.leg.br/comunidade/casas_legislativas/municipal/", estados)
 

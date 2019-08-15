@@ -447,11 +447,11 @@ O caso Challenger (1986)
     <img src="./assets/img/plotlylogo.png" style="float: center; width: 7%;"> !! </p>
 </div>
 
-Apresentação disponíveis no<img src="./assets/img/gitlogo5.png" style="float: center; width: 13%;">em:
+Apresentação disponível no<img src="./assets/img/gitlogo5.png" style="float: center; width: 13%;">em:
 <br>
 
 <p>
-<a href="https://allanvc.github.io/slide_talk1/" style="color:black">allanvc.github.io/slide_DS_FNDE/</a>
+<a href="https://allanvc.github.io/talk_DS_FNDE/" style="color:black">allanvc.github.io/talk_DS_FNDE/</a>
 </p>
 
 <br>
